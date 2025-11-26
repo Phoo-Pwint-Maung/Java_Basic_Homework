@@ -18,31 +18,34 @@ public class javabasic_homework_day8 {
         age = userInput.nextInt();
 
 
+        //Show Title
+        System.out.println("-----------Student Result-----------");
+
         //Show student name
-        System.out.println("Your name is : " + studentName);
+        System.out.println("Name: " + studentName);
 
         //Show score
-        System.out.println("Your score is : " + score);
+        System.out.println("Score: " + score);
 
         //Check score grade and show grade
         if(score >= 90){
-            System.out.println("Your grade is A");
+            System.out.println("Score: A");
         }else if(score >= 80){
-            System.out.println("Your grade is B");
+            System.out.println("Score: B");
         }else if (score >= 70){
-            System.out.println("Your grade is C");
+            System.out.println("Score: C");
         }else if (score >= 60){
-            System.out.println("Your grade is D");
+            System.out.println("Score: D");
         }else{
-            System.out.println("Your grade is E");
+            System.out.println("Score: E");
         }
 
         //Check age and show age
         if(age < 18){
-            System.out.println("You are Minor student");
+            System.out.println("Status: Minor Student");
         }
         else{
-            System.out.println("You are Adult student");
+            System.out.println("Status: Adult Student");
         }
 
 
