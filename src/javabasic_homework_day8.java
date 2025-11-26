@@ -29,15 +29,15 @@ public class javabasic_homework_day8 {
 
         //Check score grade and show grade
         if(score >= 90){
-            System.out.println("Score: A");
+            System.out.println("Grade: A");
         }else if(score >= 80){
-            System.out.println("Score: B");
+            System.out.println("Grade: B");
         }else if (score >= 70){
-            System.out.println("Score: C");
+            System.out.println("Grade: C");
         }else if (score >= 60){
-            System.out.println("Score: D");
+            System.out.println("Grade: D");
         }else{
-            System.out.println("Score: E");
+            System.out.println("Grade: E");
         }
 
         //Check age and show age
